@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Sederhana</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .blog-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .blog-post {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .blog-post:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .blog-post h2 {
+      font-size: 1.5rem;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .blog-post p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .blog-post .date {
+      font-size: 0.8rem;
+      color: #999;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blog Harian</h1>
+  </header>
+
+  <main>
+    <div class="blog-list">
+      <!-- Blog Item 1 -->
+      <div class="blog-post">
+        <h2>Judul Blog #1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae.</p>
+        <div class="date">18 Juli 2025</div>
+      </div>
+      <!-- Blog Item 2 -->
+      <div class="blog-post">
+        <h2>Judul Blog #2</h2>
+        <p>Curabitur tincidunt, nisl eget fringilla cursus, enim nisi laoreet nisi, nec convallis.</p>
+        <div class="date">17 Juli 2025</div>
+      </div>
+      <!-- Blog Item 3 -->
+      <div class="blog-post">
+        <h2>Judul Blog #3</h2>
+        <p>Fusce vulputate eros nec urna consectetur, eget tincidunt mauris gravida.</p>
+        <div class="date">16 Juli 2025</div>
+      </div>
+      <!-- Blog Item 4 -->
+      <div class="blog-post">
+        <h2>Judul Blog #4</h2>
+        <p>Donec semper, tortor eget eleifend cursus, erat augue dapibus erat, ac lobortis.</p>
+        <div class="date">15 Juli 2025</div>
+      </div>
+      <!-- Blog Item 5 -->
+      <div class="blog-post">
+        <h2>Judul Blog #5</h2>
+        <p>Aliquam erat volutpat. Cras porta velit at eros lobortis, ut dignissim nulla laoreet.</p>
+        <div class="date">14 Juli 2025</div>
+      </div>
+      <!-- Blog Item 6 -->
+      <div class="blog-post">
+        <h2>Judul Blog #6</h2>
+        <p>Nam quis felis sit amet purus laoreet laoreet sed non metus. Etiam ut volutpat eros.</p>
+        <div class="date">13 Juli 2025</div>
+      </div>
+      <!-- Blog Item 7 -->
+      <div class="blog-post">
+        <h2>Judul Blog #7</h2>
+        <p>Mauris fermentum ipsum sit amet orci bibendum, at commodo velit congue.</p>
+        <div class="date">12 Juli 2025</div>
+      </div>
+      <!-- Blog Item 8 -->
+      <div class="blog-post">
+        <h2>Judul Blog #8</h2>
+        <p>Vestibulum eget nulla sed massa tincidunt tincidunt. Curabitur tempor suscipit leo.</p>
+        <div class="date">11 Juli 2025</div>
+      </div>
+      <!-- Blog Item 9 -->
+      <div class="blog-post">
+        <h2>Judul Blog #9</h2>
+        <p>Sed viverra, est vel egestas tincidunt, sapien nulla bibendum velit, sed tempor.</p>
+        <div class="date">10 Juli 2025</div>
+      </div>
+      <!-- Blog Item 10 -->
+      <div class="blog-post">
+        <h2>Judul Blog #10</h2>
+        <p>Phasellus vel ultricies purus. Pellentesque tincidunt augue vel turpis dignissim.</p>
+        <div class="date">9 Juli 2025</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Blog Harian. All rights reserved.
+  </footer>
+
+</body>
+</html>
